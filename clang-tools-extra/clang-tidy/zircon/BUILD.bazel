@@ -1,5 +1,6 @@
 cc_library(
   name = "ZirconModule",
   srcs = glob(["*.cpp","*.h"]),
+  deps = ["//clang-tools-extra/clang-tidy:Tidy"],
   visibility = ["//visibility:public"],
 )

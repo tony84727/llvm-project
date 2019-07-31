@@ -1,6 +1,5 @@
 cc_library(
-  name = "Tidy",
+  name = "AST",
   srcs = glob(["*.cpp","*.h"]),
-  hdrs = glob(["*.h"]),
   visibility = ["//visibility:public"],
 )

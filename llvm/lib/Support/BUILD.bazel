@@ -1,0 +1,12 @@
+_public_headers = [
+    "//llvm/include/llvm/ADT:headers",
+    "//llvm/include/llvm/Support:headers",
+]
+
+cc_library(
+    name = "Support",
+    srcs = glob(["*.cpp"]) + _public_headers,
+    hdrs = _public_headers,
+    includes = ["llvm/include"],
+    visibility = ["//visibility:public"],
+)
