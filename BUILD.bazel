@@ -1,0 +1,4 @@
+alias(
+    name = "clang_tidy",
+    actual = "//clang-tools-extra/clang-tidy/tool:clang_tidy",
+)

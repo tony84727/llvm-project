@@ -1,0 +1,15 @@
+cc_library(
+    name = "clang_tidy_lib",
+    srcs = [
+        "ClangTidy.cpp",
+        "ClangTidyCheck.cpp",
+        "ClangTidyModule.cpp",
+        "ClangTidyDiagnosticConsumer.cpp",
+        "ClangTidyOptions.cpp",
+        "ClangTidyProfiling.cpp",
+        "ExpandModularHeadersPPCallbacks.cpp"
+    ],
+    deps = [
+        "//clang"
+    ],
+)
