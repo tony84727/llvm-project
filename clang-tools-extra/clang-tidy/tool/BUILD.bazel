@@ -26,5 +26,5 @@ cc_binary(
         "//clang-tools-extra/clang-tidy/readability:ReadabilityModule",
         "//clang-tools-extra/clang-tidy/zircon:ZirconModule",
     ],
-    visibility = "//visibility:public",
+    visibility = ["//visibility:public"],
 )

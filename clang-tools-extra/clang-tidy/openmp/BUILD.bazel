@@ -1,5 +1,5 @@
 cc_library(
-  name = "Tidy",
+  name = "OpenMPModule",
   srcs = glob(["*.cpp","*.h"]),
   visibility = ["//visibility:public"],
 )
